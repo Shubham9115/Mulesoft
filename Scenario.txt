@@ -1,0 +1,15 @@
+Pin change at ATM
+
+Pre
+Verify the card details
+Account active or not
+
+Scenario
+Enter old PIN
+Check the old PIN
+Option to enter new PIN
+Re-enter new PIN
+Save the new PIN in the Banks system
+Message on screen about the successful PIN change
+Message on registered number about the successful PIN change
+Log out from the machine
