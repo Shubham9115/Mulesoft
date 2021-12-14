@@ -1,0 +1,31 @@
+PIN change at ATM:
+
+POST  https://localhost-8081/cus-dir/update-pin/550
+
+Request: body
+
+<customer>	
+	<customer_id>550</customer_id>
+	<status>enter_new_pin</status> </customer>
+Response: body
+
+<customer_res>
+	<status>200</status> 
+	<message>pin_changed_successful</status>
+</customer_res>
+
+READ Customer Details:
+
+POST  https://localhost-8081/cus-dir/update-pin/550
+
+Request:body
+{
+	"customer_id":550,
+	"cutomer_name":"Shubham",
+	"status":"A"
+}
+Response:body
+{
+	"status":200,
+	"message":"successful"
+}
